@@ -1,0 +1,4 @@
+
+PID = Numero identificativo.
+User = Utente.
+Command = Commando
