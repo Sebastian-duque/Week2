@@ -47,7 +47,7 @@ scanf("%d",&z)
 if(z==1){
 conta++ 
 }
-printf("\Total points of %s is %d", user, conta)
+printf("\nTotal points of %s is %d", user, conta)
 break;
 case 2:
 break;
@@ -55,3 +55,9 @@ break;
 }while(scelta==1)
 return 0;
 
+
+
+
+
+
+ho copiato.
