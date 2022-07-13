@@ -55,9 +55,3 @@ break;
 }while(scelta==1)
 return 0;
 
-
-
-
-
-
-ho copiato.
