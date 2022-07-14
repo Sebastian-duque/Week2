@@ -2,21 +2,20 @@
 
 int main(){
 	/*variabili*/
-	int numero=0;
-	int incremento=0;
-	int decremento=0;
+	int numero;
+	int incremento;
+	int decremento;
 	
-	
-	decremento= numero - 1;
-        incremento= numero + 1;
-
-	printf("inserisci un numero\n");/*Numero da inserire da parte dell'utente*/
+	/*Numero da inserire da parte dell'utente*/
+	printf("inserisci un numero\n");
 	scanf("%d", &numero);
 
-	printf("Incremento: %d\n", &incremento);
-	scanf("%d", &incremento);
-        printf("Decremento: %n\n", &decremento);
-        scanf("%d", &decremento);
+	/*Calcoli di incremento/decremento*/
+        incremento= numero + 1;
+        decremento= numero - 1;
 
+	printf("Incremento: %d && Decremento: %d\n", incremento, decremento);
+	
+	return 0;
 
 }
