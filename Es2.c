@@ -3,19 +3,21 @@
 int main(){
 	
 	/*Variabili Utilizzate*/	
-	float n, m, media;
-
+//	float n, m, media;
+	int  media=0;
+	int numero;
+	int numero2;
 
 	/*Nuemri da inserire da parte del user*/
 	printf("Inserisci un numero\n");
-	scanf("%f", &n);
+	scanf("%d", &numero);
 
 	printf("Inserisci un secondo numero\n");
-	scanf("%f", &m);
+	scanf("%d", &numero2);
 
 //	somma = numero1 + numero2;
-	media = (n + m)/ 2;
-	printf("Media: %6.1f\n", media);
+	media = (numero + numero2)/ 2;
+	printf("Media: %d\n", media);
 	
 	return 0;
 }
